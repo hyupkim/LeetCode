@@ -7,7 +7,7 @@ HashMap reduces the time complexity into O(n)
 import java.util.Map;
 import java.util.HashMap;
 
-class Solution {
+class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         

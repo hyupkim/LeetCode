@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch NumIslands",
+      "request": "launch",
+      "mainClass": "NumIslands",
+      "projectName": "LeetCode_e810388f"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
