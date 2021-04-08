@@ -24,7 +24,7 @@ class Solution {
         
     }
     public static void main(String[] args) {
-        twoSum(new int[]{1,2,3}, 3); 
+        twoSum(new int[]{1,2,3}, 5); 
     }
 
 }
