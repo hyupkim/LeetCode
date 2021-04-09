@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 /*
 Think which data structures are gonna be used
 Make HashMap + Doubly Linked List
@@ -12,6 +10,7 @@ But removing the node can take place from anywhere.
 */
 
 import java.util.Map;
+import java.util.HashMap;
 
 public class LRUCache {
 
