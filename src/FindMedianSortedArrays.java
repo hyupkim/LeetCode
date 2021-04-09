@@ -1,3 +1,9 @@
+/*
+Set i for the mid point, j for the 0 always.
+Because we are going to set up the parameters to be
+nums1.length >= nums2.length
+*/
+
 public class FindMedianSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         
