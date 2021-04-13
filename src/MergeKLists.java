@@ -14,6 +14,12 @@ class MergeKLists {
         ListNode head = new ListNode();
         ListNode pointer = head;
         Queue<ListNode> pq = new PriorityQueue<>((x, y) -> x.val - y.val);
+        // Queue<ListNode> pq = new PriorityQueue<>(new Comparator<ListNode>() {
+        //     @Override
+        //     public int compare(ListNode l1, ListNode l2){
+        //         return l1.val - l2.val;
+        //     }
+        // });
         
         for (int i = 0; i < lists.length; i++) {
             if (lists[i] != null) {
